@@ -13,10 +13,13 @@ body{
 }
 .banner-container{
     display: flex;
+    /* justify-content: space-between; */
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 .banner-details{
+    width: 635px;
+    /* height: 800px; */
     /* margin-top: 60px; */
     /* align-items: center; */
     /* margin-right: 50px; */
@@ -41,9 +44,8 @@ body{
     border-radius: 5px;
     border-style: none;
     background: #E55473;
-    padding: 15px 30px;
+    padding: 13px 30px;
 }
-
 
 /* about section */
 
@@ -211,4 +213,71 @@ body{
 img{
     height: 300px;
     width: 300px;
+}
+
+/*  */
+/* subscribe section */
+.subscribe{
+    margin: 100px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Rectangle\ 9.png");
+    padding: 100px;
+    border-radius: 15px;
+}
+.subscribe-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.subscribe-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.subscribe-option{
+    text-align: center;
+    
+}
+.search{
+    padding: 13px 100px 13px 5px;
+    border-radius: 5px;
+    border-style: none;
+    background: #FFF;
+}
+
+
+/*  */
+/* footer section */
+footer{
+    background: #111010;
+    padding: 100px;
+    margin: 100px 0 0 0;
+}
+.footer-title{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer-details{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.title-shop{
+    color: #FFF;
 }
