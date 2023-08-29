@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+/* common font style */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner section */
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    padding: 30px 0px 0px 100px;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.banner-details{
+    /* margin-top: 60px; */
+    /* align-items: center; */
+    /* margin-right: 50px; */
+}
+.banner-title{
+    margin-bottom: 30px;
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+.banner-description{
+    margin-bottom: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn-primary{
+    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    border-style: none;
+    background: #E55473;
+    padding: 15px 30px;
+}
+
+
+/* about section */
+
+.about {
+    text-align: center;
+    /* margin-top: 100px; */
+    margin: 100px 100px 50px 100px;
+    padding: 100px 100px;
+    background: rgba(229, 84, 115, 0.10);
+    border-radius: 15px;
+}
+
+.section-title {
+    text-align: center;
+    /* margin-top: 130px; */
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-description {
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 40px;
+}
+
+/* About styles */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.about .info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
